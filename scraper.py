@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-"""Site-wide web scraping utility.
 
-This script crawls an entire website, extracts page metadata and main text, and
-persists the results to a SQLite database. It is intended as a flexible
-foundation that can be customized for different projects.
-"""
 from __future__ import annotations
 
 import argparse
